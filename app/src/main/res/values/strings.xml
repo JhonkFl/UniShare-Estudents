@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Uni-Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="AcercaUniSearch">Uni-Search es una Aplicación que ha pensado en todos
+        los Estudiantes egresados y apunto de Egresar
+        de las Preparatorias, en donde esta aplicación es
+        una herramienta para buscar Universidades en todo
+        el Pais, Mostrando la informacion necesaria para
+        conocerlas, asi como las carreras profecionales que
+        ofrecen y la ubicacion especifica de donde se encuentran.</string>
+
+    <string name="frase">Encuentra la universidad que más te guste, en nuestra Aplicación.
+    Asi como las carreras que deseas cursar. Recuerda que el aprendizaje construye tu futuro.</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4502497099059343/9680523860</string>
+</resources>

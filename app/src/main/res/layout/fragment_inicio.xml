@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F5F3F8"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Menu.FragmentInicio">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Bienvenido al Buscador"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/pers" />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoSizeTextType="uniform"
+            android:background="@android:drawable/picture_frame"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            android:text="@string/frase"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Entrar a Buscar Universidades"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            app:iconTint="#F0F0F0"
+            app:icon="@android:drawable/ic_search_category_default" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btnMilitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Buscar Escuelas Militares"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            app:iconTint="#F0F0F0"
+            app:icon="@drawable/teniente" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btnDonar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Donar al proyecto"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/monetization"
+            app:iconTint="#F0F0F0" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-4502497099059343/8946591349"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        </com.google.android.gms.ads.AdView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:rotation="180"
+            android:src="@drawable/a3"
+            android:translationY="60dp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
